@@ -516,7 +516,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\prod_progress_bar3.dds"
 		textureFile2 = "gfx\\interface\\prod_progress_bar3_bg.dds"
-		size = { x = 166 y = 21 }
+		size = { x = 132 y = 14 }
 		effectFile = "gfx/FX/progress_startend.lua"
 	}		
 
@@ -526,7 +526,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\prod_progress_bar2_red.dds"
 		textureFile2 = "gfx\\interface\\prod_progress_bar2_bg.dds"
-		size = { x = 118 y = 21 }
+		size = { x = 132 y = 14 }
 		effectFile = "gfx/FX/progress_startend.lua"
 	}	
 	
@@ -536,7 +536,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\prod_progress_bar2_yellow.dds"
 		textureFile2 = "gfx\\interface\\prod_progress_bar2_bg.dds"
-		size = { x = 118 y = 21 }
+		size = { x = 132 y = 14 }
 		effectFile = "gfx/FX/progress_startend.lua"
 	}
 	
@@ -546,7 +546,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\prod_progress_bar2.dds"
 		textureFile2 = "gfx\\interface\\prod_progress_bar2_bg.dds"
-		size = { x = 118 y = 21 }
+		size = { x = 132 y = 14 }
 		effectFile = "gfx/FX/progress_startend.lua"
 	}	
 	
@@ -556,7 +556,7 @@ spriteTypes = {
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\production_progressbar.dds"
 		textureFile2 = "gfx\\interface\\production_progressbar_bg.dds"
-		size = { x = 131 y = 9 }
+		size = { x = 132 y = 14 }
 		effectFile = "gfx/FX/progress_startend.lua"
 	}
 
@@ -774,6 +774,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_production_line_selected_railway"
 		textureFile = "gfx//interface//production_line_selected_railway.dds"
+	}
+
+	spriteType = {
+		name = "GFX_priority_frame_mod"
+		textureFile = "gfx/interface/priority_frame_mod.dds"
+		alwaystransparent = yes
 	}
 	
 	# frameAnimatedSpriteType = {
